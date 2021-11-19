@@ -1,0 +1,166 @@
+
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+    font-family: sans-serif;
+
+    /* border:1px solid grey; */
+}
+
+/*General Styles*/
+html{
+    font-size:62.5%;
+}
+
+body h1 {
+    font-size: 5rem;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+}
+
+.container{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+/* header styles */
+header {
+    margin: 3%;
+    height: 40px;
+    position: fixed;
+}
+
+.logo h1 {
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+/* section one styles */
+.one {
+    background: hsl(44, 100%, 88%);
+    height: 80vh;
+    display:flex;
+    justify-content: space-between;
+}
+
+.pageOneLeft {
+    width: 65%;
+    padding: 20rem;
+    font-size: 2rem;
+}
+
+.pageOneLeft h1 {
+    font-size: 6rem;
+}
+.pageOneRight {
+    height: 80vh;
+    width: 35%;
+}
+.pageOneRight img {
+    height: 300px;
+    border-radius: 50%;
+    padding: 10%;
+}
+.rightColorBlock {
+    width: 30vw;
+}
+
+/* section two styles */
+.two {
+    padding: 20rem;
+    background: hsl(0, 0%, 100%);
+    display:flex;
+    justify-content: space-between;
+}
+
+.two p {
+    font-size: 2rem;
+}
+
+.pageTwoLeft {
+    margin-top: 5rem;
+    align-self: flex-start;
+    width: 45%;
+}
+
+.pageTwoRight {
+    margin-bottom: 5rem;
+    align-self: flex-end;
+    width: 45%;
+}
+
+/* section three styles */
+.three {
+    background: hsl(45, 89%, 82%);
+}
+.pageThreeLeft {
+    width: 50%;
+    padding: 10rem;
+    /* align-self: flex-start; */
+}
+.pageThreeRight {
+    width: 50%;
+}
+
+.pageThreeLeft p {
+    font-size: 2rem;
+}
+
+/* section four styles */
+.four {
+    background: hsl(92, 49%, 76%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.four h1 {
+    font-size: 4rem;
+    padding-bottom: 2rem;
+}
+
+.four p{
+    font-size: 2rem;
+    padding-bottom: 3rem;
+}
+
+.pageFourBox{
+    background: hsl(0, 0%, 100%);;
+    display: flex;
+    justify-content: space-around;
+    width: 90vw;
+    height: 60vh;
+}
+
+.pageFourLeft {
+    padding: 10rem;
+    width: 40%;
+    border-right: black solid 2px;
+
+}
+
+.pageFourRight {
+    padding-top: 10rem;
+    width: 25%;
+}
+
+.four button {
+    padding: 1rem;
+    border: none;
+}
+
+/* section five styles */
+ 
+.five {
+    background:hsl(0, 0%, 100%);
+}
