@@ -38,6 +38,16 @@ header {
     margin: 3%;
     height: 40px;
     position: fixed;
+    color:hsl(224, 40%, 22%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header a {
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: hsl(224, 40%, 22%);
 }
 
 .logo h1 {
@@ -47,24 +57,32 @@ header {
 
 /* section one styles */
 .one {
-    background: hsl(44, 100%, 88%);
+    background: hsl(10, 56%, 51%);
     height: 80vh;
     display:flex;
     justify-content: space-between;
+    color:hsl(120, 14%, 97%);
 }
 
 .pageOneLeft {
-    width: 65%;
+    width: 55%;
     padding: 20rem;
     font-size: 2rem;
 }
 
 .pageOneLeft h1 {
     font-size: 6rem;
+    color:hsl(224, 40%, 22%);
 }
+
+
 .pageOneRight {
+    padding: 3rem;
+    background-image: url(/assets1/undraw_programmer_re_owql.svg);
+    background-repeat: no-repeat;
+    background-position: 10% 25%;
     height: 80vh;
-    width: 35%;
+    width: 45%;
 }
 .pageOneRight img {
     height: 300px;
@@ -78,30 +96,35 @@ header {
 /* section two styles */
 .two {
     padding: 20rem;
-    background: hsl(0, 0%, 100%);
+    background: hsl(120, 14%, 97%);
     display:flex;
     justify-content: space-between;
 }
 
+.two h1 {
+    color:hsl(10, 56%, 51%);
+}
+
 .two p {
     font-size: 2rem;
+    color: hsl(224, 40%, 22%);
 }
 
 .pageTwoLeft {
     margin-top: 5rem;
     align-self: flex-start;
-    width: 45%;
+    width: 40%;
 }
 
 .pageTwoRight {
     margin-bottom: 5rem;
     align-self: flex-end;
-    width: 45%;
+    width: 40%;
 }
 
 /* section three styles */
 .three {
-    background: hsl(45, 89%, 82%);
+    background: hsl(224, 40%, 22%);
 }
 .pageThreeLeft {
     width: 50%;
@@ -112,13 +135,19 @@ header {
     width: 50%;
 }
 
+.pageThreeLeft h1 {
+    color:hsl(10, 56%, 51%);
+}
+
 .pageThreeLeft p {
     font-size: 2rem;
+    color:hsl(120, 14%, 97%)
 }
 
 /* section four styles */
 .four {
-    background: hsl(92, 49%, 76%);
+    color:hsl(224, 40%, 22%);
+    background: hsl(120, 14%, 97%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -145,7 +174,7 @@ header {
 .pageFourLeft {
     padding: 10rem;
     width: 40%;
-    border-right: black solid 2px;
+    border-right: hsl(28, 88%, 59%) solid 2px;
 
 }
 
@@ -157,6 +186,8 @@ header {
 .four button {
     padding: 1rem;
     border: none;
+    background-color: hsl(10, 56%, 51%);
+    color: hsl(120, 14%, 97%);
 }
 
 /* section five styles */
